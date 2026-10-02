@@ -23,4 +23,4 @@ Turn OFF "Ask where to save each file before downloading" in the browser's downl
 Copy `_locales/en` to `_locales/<code>` (e.g. `fr`) and translate the "message" values.
 
 ## AI Notice
-Originally created with Claude
+Originally created with Claude (Anthropic).
