@@ -1,0 +1,179 @@
+{
+  "extName": {
+    "message": "Stream Source URL"
+  },
+  "extDesc": {
+    "message": "Schreibt die URL des aktiven Tabs (mit Favicon) in ein transparentes PNG und eine Textdatei – ideal als automatische Quellenangabe in OBS."
+  },
+  "lblEnabled": {
+    "message": "Aktiv"
+  },
+  "status_off": {
+    "message": "Pausiert – es wird nichts geschrieben"
+  },
+  "status_idle": {
+    "message": "Warte auf eine Seite"
+  },
+  "status_active": {
+    "message": "Aktiv – wird geschrieben"
+  },
+  "status_custom": {
+    "message": "Eigener Text wird angezeigt"
+  },
+  "status_cleared": {
+    "message": "Geleert – Overlay ist leer"
+  },
+  "status_excluded_list": {
+    "message": "Ausgeschlossene Seite – letzter Wert bleibt"
+  },
+  "status_excluded_scheme": {
+    "message": "Browser-Seite – letzter Wert bleibt"
+  },
+  "status_excluded_incognito": {
+    "message": "Privates Fenster – letzter Wert bleibt"
+  },
+  "status_excluded_local": {
+    "message": "Lokale Adresse – letzter Wert bleibt"
+  },
+  "btnExcludeSite": {
+    "message": "Diese Seite ausschliessen"
+  },
+  "btnAlreadyExcluded": {
+    "message": "Seite ist ausgeschlossen"
+  },
+  "btnClear": {
+    "message": "Overlay leeren"
+  },
+  "lblDelay": {
+    "message": "Verzögerung (ms)"
+  },
+  "lblIncognito": {
+    "message": "Auch in privaten Fenstern"
+  },
+  "lblShowDate": {
+    "message": "Datum in Klammern anzeigen"
+  },
+  "lblCustom": {
+    "message": "Eigener Text / eigene URL"
+  },
+  "phCustom": {
+    "message": "URL oder Text einfügen…"
+  },
+  "btnCustomUse": {
+    "message": "Anzeigen"
+  },
+  "btnCustomOff": {
+    "message": "Zurück zu automatisch"
+  },
+  "linkOptions": {
+    "message": "Einstellungen"
+  },
+  "savedToast": {
+    "message": "Gespeichert"
+  },
+  "secPreview": {
+    "message": "Vorschau"
+  },
+  "secOutput": {
+    "message": "Ausgabe"
+  },
+  "lblFolder": {
+    "message": "Ordner (im Download-Verzeichnis)"
+  },
+  "hintFolder": {
+    "message": "Die Dateien werden direkt überschrieben: current.png (Favicon + URL) und current.txt (nur Text). OBS auf diese Dateien zeigen lassen."
+  },
+  "lblEraseHistory": {
+    "message": "Einträge aus dem Download-Verlauf entfernen"
+  },
+  "lblHideDownloadUi": {
+    "message": "Download-Popup des Browsers ausblenden (betrifft ALLE Downloads, solange aktiv)"
+  },
+  "secStyle": {
+    "message": "Textstil"
+  },
+  "lblShowFavicon": {
+    "message": "Favicon anzeigen"
+  },
+  "lblFontSize": {
+    "message": "Schriftgrösse (px)"
+  },
+  "lblFontFamily": {
+    "message": "Schriftart"
+  },
+  "lblBold": {
+    "message": "Fett"
+  },
+  "lblTextColor": {
+    "message": "Schriftfarbe"
+  },
+  "lblOutlineColor": {
+    "message": "Umrandungsfarbe"
+  },
+  "lblOutlineWidth": {
+    "message": "Umrandungsbreite (px)"
+  },
+  "secUrlDisplay": {
+    "message": "URL-Darstellung"
+  },
+  "lblStripScheme": {
+    "message": "\"https://\" und \"www.\" ausblenden"
+  },
+  "lblStripTracking": {
+    "message": "Tracking-Parameter und #Fragment entfernen"
+  },
+  "lblMaxLength": {
+    "message": "Maximale Länge (Zeichen)"
+  },
+  "hintMaxLength": {
+    "message": "0 = unbegrenzt. Längere URLs werden mit Auslassungspunkten gekürzt."
+  },
+  "lblDateFormat": {
+    "message": "Datumsformat"
+  },
+  "date_iso": {
+    "message": "ISO"
+  },
+  "date_dmy": {
+    "message": "Tag.Monat.Jahr"
+  },
+  "date_mdy": {
+    "message": "Monat/Tag/Jahr"
+  },
+  "secExcluded": {
+    "message": "Ausgeschlossene Seiten"
+  },
+  "hintExcluded": {
+    "message": "Ein Eintrag pro Zeile. \"bank.ch\" gilt auch für alle Subdomains, * ist ein Platzhalter (z. B. *ebanking*), \"example.com/admin\" schliesst einen Pfad aus. Ausgeschlossene Seiten ändern die Ausgabe nie."
+  },
+  "lblExcludeLocal": {
+    "message": "Auch lokale Netzwerkadressen ausschliessen (localhost, 192.168.x.x, …)"
+  },
+  "phExclude": {
+    "message": "z. B. meinebank.ch oder *.bank.*"
+  },
+  "btnAdd": {
+    "message": "Hinzufügen"
+  },
+  "btnRemove": {
+    "message": "Entfernen"
+  },
+  "secRules": {
+    "message": "Regeln zum Kürzen von URLs"
+  },
+  "hintRules": {
+    "message": "Pro Seite: nur die ersten N Pfadabschnitte behalten (leer = alle) und nur die genannten Parameter (Komma-getrennt, * = alle, leer = keine). Beispiel: tiktok.com → 1 Abschnitt zeigt nur den Kanal."
+  },
+  "lblRuleHost": {
+    "message": "Seite"
+  },
+  "lblRuleSegments": {
+    "message": "Pfadabschnitte"
+  },
+  "lblRuleParams": {
+    "message": "Parameter behalten"
+  },
+  "btnAddRule": {
+    "message": "Regel hinzufügen"
+  }
+}

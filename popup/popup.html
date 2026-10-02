@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1 data-i18n="extName"></h1>
+    <label class="switch" data-i18n-title="lblEnabled">
+      <input id="enabled" type="checkbox">
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <section id="status">
+    <div id="statusText"></div>
+    <code id="statusUrl"></code>
+  </section>
+
+  <div class="row">
+    <button id="excludeBtn" data-i18n="btnExcludeSite"></button>
+    <button id="clearBtn" data-i18n="btnClear"></button>
+  </div>
+
+  <label class="field">
+    <span data-i18n="lblDelay"></span>
+    <input id="delay" type="number" min="0" max="10000" step="100">
+  </label>
+  <label class="check"><input id="incognito" type="checkbox"><span data-i18n="lblIncognito"></span></label>
+  <label class="check"><input id="showDate" type="checkbox"><span data-i18n="lblShowDate"></span></label>
+
+  <fieldset>
+    <legend data-i18n="lblCustom"></legend>
+    <input id="customText" type="text" data-i18n-placeholder="phCustom">
+    <div class="row">
+      <button id="customOn" data-i18n="btnCustomUse"></button>
+      <button id="customOff" data-i18n="btnCustomOff"></button>
+    </div>
+  </fieldset>
+
+  <footer><a href="#" id="openOptions" data-i18n="linkOptions"></a></footer>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

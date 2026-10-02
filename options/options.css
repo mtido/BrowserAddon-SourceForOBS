@@ -1,0 +1,28 @@
+:root { color-scheme: light dark; --bg:#f9fafb; --card:#fff; --fg:#1f2937; --muted:#6b7280; --line:#e5e7eb; --accent:#3b82f6; --btn:#f3f4f6; }
+@media (prefers-color-scheme: dark) { :root { --bg:#16181c; --card:#1f2227; --fg:#e5e7eb; --muted:#9ca3af; --line:#333842; --btn:#2b2f37; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.45 system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 60px; }
+h1 { font-size: 20px; }
+h2 { font-size: 15px; margin: 0 0 10px; }
+section { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin: 14px 0; }
+.field { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 8px 0; }
+.field input[type=text], .field input[type=number], .field select { width: 260px; }
+.check { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
+.hint { color: var(--muted); font-size: 12px; margin: 4px 0 8px; }
+input[type=text], input[type=number], select { padding: 5px 7px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); font: inherit; }
+input[type=color] { width: 60px; height: 28px; padding: 0; border: 1px solid var(--line); border-radius: 6px; background: none; }
+button { padding: 5px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--btn); color: var(--fg); cursor: pointer; font: inherit; }
+button:hover { border-color: var(--accent); }
+.row { display: flex; gap: 8px; }
+.row input { flex: 1; }
+ul { list-style: none; padding: 0; margin: 10px 0 0; }
+li { display: flex; align-items: center; justify-content: space-between; padding: 5px 8px; border-bottom: 1px solid var(--line); font-family: ui-monospace, monospace; font-size: 13px; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+th { text-align: left; font-weight: 600; font-size: 12px; color: var(--muted); padding: 4px; }
+td { padding: 3px 4px; }
+td input { width: 100%; }
+#previewBox { min-height: 70px; padding: 14px; border-radius: 8px; background: repeating-conic-gradient(#777 0% 25%, #555 0% 50%) 0 / 20px 20px; overflow-x: auto; }
+#preview { display: block; image-rendering: auto; }
+#toast { position: fixed; top: 12px; right: 12px; background: #22c55e; color: #fff; padding: 6px 12px; border-radius: 6px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+#toast.show { opacity: 1; }

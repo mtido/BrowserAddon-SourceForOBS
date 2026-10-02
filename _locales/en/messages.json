@@ -1,0 +1,179 @@
+{
+  "extName": {
+    "message": "Stream Source URL"
+  },
+  "extDesc": {
+    "message": "Writes the URL of your active tab (with favicon) to a transparent PNG and a text file – ideal as an automatic source credit in OBS."
+  },
+  "lblEnabled": {
+    "message": "Enabled"
+  },
+  "status_off": {
+    "message": "Paused – nothing is written"
+  },
+  "status_idle": {
+    "message": "Waiting for a page"
+  },
+  "status_active": {
+    "message": "Active – writing"
+  },
+  "status_custom": {
+    "message": "Custom text is shown"
+  },
+  "status_cleared": {
+    "message": "Cleared – overlay is empty"
+  },
+  "status_excluded_list": {
+    "message": "Excluded site – last value stays"
+  },
+  "status_excluded_scheme": {
+    "message": "Browser page – last value stays"
+  },
+  "status_excluded_incognito": {
+    "message": "Private window – last value stays"
+  },
+  "status_excluded_local": {
+    "message": "Local address – last value stays"
+  },
+  "btnExcludeSite": {
+    "message": "Exclude this site"
+  },
+  "btnAlreadyExcluded": {
+    "message": "Site is excluded"
+  },
+  "btnClear": {
+    "message": "Clear overlay"
+  },
+  "lblDelay": {
+    "message": "Update delay (ms)"
+  },
+  "lblIncognito": {
+    "message": "Also in private windows"
+  },
+  "lblShowDate": {
+    "message": "Show date in brackets"
+  },
+  "lblCustom": {
+    "message": "Custom text / URL"
+  },
+  "phCustom": {
+    "message": "Paste a URL or text…"
+  },
+  "btnCustomUse": {
+    "message": "Show"
+  },
+  "btnCustomOff": {
+    "message": "Back to automatic"
+  },
+  "linkOptions": {
+    "message": "Settings"
+  },
+  "savedToast": {
+    "message": "Saved"
+  },
+  "secPreview": {
+    "message": "Preview"
+  },
+  "secOutput": {
+    "message": "Output"
+  },
+  "lblFolder": {
+    "message": "Folder (inside Downloads)"
+  },
+  "hintFolder": {
+    "message": "Files are overwritten in place: current.png (favicon + URL) and current.txt (text only). Point OBS at these files."
+  },
+  "lblEraseHistory": {
+    "message": "Remove the entries from the download history"
+  },
+  "lblHideDownloadUi": {
+    "message": "Hide the browser's download popup (affects ALL downloads while active)"
+  },
+  "secStyle": {
+    "message": "Text style"
+  },
+  "lblShowFavicon": {
+    "message": "Show favicon"
+  },
+  "lblFontSize": {
+    "message": "Font size (px)"
+  },
+  "lblFontFamily": {
+    "message": "Font"
+  },
+  "lblBold": {
+    "message": "Bold"
+  },
+  "lblTextColor": {
+    "message": "Text color"
+  },
+  "lblOutlineColor": {
+    "message": "Outline color"
+  },
+  "lblOutlineWidth": {
+    "message": "Outline width (px)"
+  },
+  "secUrlDisplay": {
+    "message": "URL display"
+  },
+  "lblStripScheme": {
+    "message": "Hide \"https://\" and \"www.\""
+  },
+  "lblStripTracking": {
+    "message": "Remove tracking parameters and #fragment"
+  },
+  "lblMaxLength": {
+    "message": "Maximum length (characters)"
+  },
+  "hintMaxLength": {
+    "message": "0 = no limit. Longer URLs are cut with an ellipsis."
+  },
+  "lblDateFormat": {
+    "message": "Date format"
+  },
+  "date_iso": {
+    "message": "ISO"
+  },
+  "date_dmy": {
+    "message": "Day.Month.Year"
+  },
+  "date_mdy": {
+    "message": "Month/Day/Year"
+  },
+  "secExcluded": {
+    "message": "Excluded sites"
+  },
+  "hintExcluded": {
+    "message": "One entry per line item. \"bank.ch\" also covers all subdomains, * is a wildcard (e.g. *ebanking*), \"example.com/admin\" excludes a path. Excluded pages never change the output."
+  },
+  "lblExcludeLocal": {
+    "message": "Also exclude local network addresses (localhost, 192.168.x.x, …)"
+  },
+  "phExclude": {
+    "message": "e.g. mybank.com or *.bank.*"
+  },
+  "btnAdd": {
+    "message": "Add"
+  },
+  "btnRemove": {
+    "message": "Remove"
+  },
+  "secRules": {
+    "message": "URL shortening rules"
+  },
+  "hintRules": {
+    "message": "Per site: keep only the first N path segments (blank = all) and only the listed query parameters (comma separated, * = all, blank = none). Example: tiktok.com → 1 segment shows only the channel."
+  },
+  "lblRuleHost": {
+    "message": "Site"
+  },
+  "lblRuleSegments": {
+    "message": "Path segments"
+  },
+  "lblRuleParams": {
+    "message": "Keep parameters"
+  },
+  "btnAddRule": {
+    "message": "Add rule"
+  }
+}

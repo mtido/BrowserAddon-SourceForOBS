@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <h1 data-i18n="extName"></h1>
+    <div id="toast" data-i18n="savedToast"></div>
+
+    <section>
+      <h2 data-i18n="secPreview"></h2>
+      <div id="previewBox"><img id="preview" alt=""></div>
+    </section>
+
+    <section>
+      <h2 data-i18n="secOutput"></h2>
+      <label class="field"><span data-i18n="lblFolder"></span><input id="folder" type="text"></label>
+      <p class="hint" data-i18n="hintFolder"></p>
+      <label class="check"><input id="eraseHistory" type="checkbox"><span data-i18n="lblEraseHistory"></span></label>
+      <label class="check"><input id="hideDownloadUi" type="checkbox"><span data-i18n="lblHideDownloadUi"></span></label>
+    </section>
+
+    <section>
+      <h2 data-i18n="secStyle"></h2>
+      <label class="check"><input id="showFavicon" type="checkbox"><span data-i18n="lblShowFavicon"></span></label>
+      <label class="field"><span data-i18n="lblFontSize"></span><input id="fontSize" type="number" min="8" max="200"></label>
+      <label class="field"><span data-i18n="lblFontFamily"></span><input id="fontFamily" type="text"></label>
+      <label class="check"><input id="bold" type="checkbox"><span data-i18n="lblBold"></span></label>
+      <label class="field"><span data-i18n="lblTextColor"></span><input id="color" type="color"></label>
+      <label class="field"><span data-i18n="lblOutlineColor"></span><input id="outlineColor" type="color"></label>
+      <label class="field"><span data-i18n="lblOutlineWidth"></span><input id="outlineWidth" type="number" min="0" max="30"></label>
+    </section>
+
+    <section>
+      <h2 data-i18n="secUrlDisplay"></h2>
+      <label class="check"><input id="stripScheme" type="checkbox"><span data-i18n="lblStripScheme"></span></label>
+      <label class="check"><input id="stripTracking" type="checkbox"><span data-i18n="lblStripTracking"></span></label>
+      <label class="field"><span data-i18n="lblMaxLength"></span><input id="maxLength" type="number" min="0" max="500"></label>
+      <p class="hint" data-i18n="hintMaxLength"></p>
+      <label class="field"><span data-i18n="lblDateFormat"></span>
+        <select id="dateFormat">
+          <option value="iso" data-i18n="date_iso"></option>
+          <option value="dmy" data-i18n="date_dmy"></option>
+          <option value="mdy" data-i18n="date_mdy"></option>
+        </select>
+      </label>
+    </section>
+
+    <section>
+      <h2 data-i18n="secExcluded"></h2>
+      <p class="hint" data-i18n="hintExcluded"></p>
+      <label class="check"><input id="excludeLocal" type="checkbox"><span data-i18n="lblExcludeLocal"></span></label>
+      <div class="row">
+        <input id="excludeInput" type="text" data-i18n-placeholder="phExclude">
+        <button id="excludeAdd" data-i18n="btnAdd"></button>
+      </div>
+      <ul id="excludeList"></ul>
+    </section>
+
+    <section>
+      <h2 data-i18n="secRules"></h2>
+      <p class="hint" data-i18n="hintRules"></p>
+      <table>
+        <thead><tr>
+          <th data-i18n="lblRuleHost"></th><th data-i18n="lblRuleSegments"></th><th data-i18n="lblRuleParams"></th><th></th>
+        </tr></thead>
+        <tbody id="ruleBody"></tbody>
+      </table>
+      <button id="ruleAdd" data-i18n="btnAddRule"></button>
+    </section>
+  </main>
+  <script type="module" src="options.js"></script>
+</body>
+</html>
